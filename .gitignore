@@ -3,6 +3,27 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Other stuff (just in case)
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual envs (if one ever ends up here)
+venv/
+soda-det/
+
+# Data and training outputs
+data/
+runs/
+weights/
+checkpoints/
+*.pt
+*.pth
+
+
 # C extensions
 *.so
 
