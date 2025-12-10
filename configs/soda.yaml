@@ -6,7 +6,13 @@ val: images/val
 test: images/test
 
 names:
-  0: class0
-  1: class1
-  2: class2
-  # TODO: replace with real SODA-D class names when you’re ready
+  0: people
+  1: rider
+  2: bicycle
+  3: motor
+  4: vehicle
+  5: traffic-sign
+  6: traffic-light
+  7: traffic-camera
+  8: warning-cone
+  9: ignore
