@@ -1,0 +1,12 @@
+# Adjust these paths to match your actual data layout
+path: /home/ubuntu/project/data
+
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: class0
+  1: class1
+  2: class2
+  # TODO: replace with real SODA-D class names when you’re ready
