@@ -5,17 +5,16 @@ train: images/train
 val: images/val
 test: images/test
 
+nc: 9
 names:
-  0: unused
-  1: people
-  2: rider
-  3: bicycle
-  4: motor
-  5: vehicle
-  6: traffic-sign
-  7: traffic-light
-  8: traffic-camera
-  9: warning-cone
-  10: ignore
+  0: people
+  1: rider
+  2: bicycle
+  3: motor
+  4: vehicle
+  5: traffic-sign
+  6: traffic-light
+  7: traffic-camera
+  8: warning-cone
 
 
