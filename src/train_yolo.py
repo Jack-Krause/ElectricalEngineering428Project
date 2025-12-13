@@ -20,6 +20,12 @@ def train_baseline(
         batch=batch,
         workers=2,
         device=0,
+        # modifed for test 3
+        multi_scale=True,
+        scale=0.9,
+        hsv_h=0.02,
+        hsv_s=0.7,
+        hsv_v=0.4
     )
 
 
